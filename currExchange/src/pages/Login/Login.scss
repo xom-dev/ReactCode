@@ -1,0 +1,71 @@
+.login__wrapper {
+  margin: 20px auto;
+  max-width: 350px;
+  height: 300px;
+  background-color: rgb(227, 252, 250);
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+
+  .form {
+    max-width: 250px;
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+
+    &__title {
+      margin: 15px 0;
+      text-align: center;
+      font-size: 32px;
+      text-transform: uppercase;
+      font-weight: 500;
+    }
+
+    &__email {
+      margin: 5px 0;
+      outline: none;
+      background-color: #ebebe7;
+      padding: 0 10px;
+      border: none;
+      border-radius: 10px;
+      height: 35px;
+      font-size: 14px;
+    }
+
+    &__password {
+      margin: 5px 0;
+      outline: none;
+      background-color: #ebebe7;
+      padding: 0 10px;
+      border: none;
+      border-radius: 10px;
+      height: 35px;
+      font-size: 14px;
+    }
+
+    &__label-remember {
+      margin: 5px 0;
+      display: flex;
+      align-items: center;
+    }
+
+    &__submit {
+      margin: 20px 0;
+      height: 35px;
+      outline: none;
+      cursor: pointer;
+      background-color: rgb(252, 249, 117);
+      border: none;
+      border-radius: 10px;
+      font-size: 18px;
+
+      &:hover {
+        background-color: rgb(252, 248, 58);
+      }
+
+      &:active {
+        transition: all 0.1s;
+        transform: translateY(1.5px);
+      }
+    }
+  }
+}
